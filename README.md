@@ -10,6 +10,8 @@ At least 16GB memory and 4 cores, it may need more than this since my macbook pr
     sudo chmod +x /usr/local/bin/docker-compose
     git clone https://github.com/songrgg/spinnaker-compose
     ```
+    
+    sudo usermod -a -G docker $USER
 
 1. Start MySQL for front50 service
 
